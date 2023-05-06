@@ -13,21 +13,22 @@ The two datasets are related to red and white variants of the Portuguese "Vinho 
 For more information, read [Cortez et al., 2009].
 
 ## Contents
-1.Exploratory Analysis 
+1. [Exploratory Analysis](#1-Exploratory-Analysis) 
 
-   1.1. Wine Quality and Physiochemical Properties
+   1.1. [Wine Quality and Physiochemical Properties](#11-wine-quality-and-physiochemical-properties)
    
-   1.2. Distribution of Variables
-  
-   1.3. Outliers
+   1.2. [Distribution of Variables](#12-distribution-of-variables)
+   
+   1.3. [Outliers](#13-Outliers)
    
    
-2. Feature Engineer and Data Preprocessing
+2. [Feature Engineer and Data Preprocessing](#2-feature-engineer-and-data-preprocessing)
 
-    2.1. Dealing With Outliers
+    2.1. [Dealing With Outliers](##21-Dealing-With-Outliers)
     
-    2.2. Distribution Transformation
-    2.3. [Dealing With Imbalance Data
+    2.2. [Distribution Transformation](##22-Distribution-Transformation)
+    
+    2.3. [Dealing With Imbalance Data](##23-Dealing-With-Imbalanced-Data)
     
     2.4. [Encoding Categorical Data](##34-Encoding-Categorical-Data)
     
@@ -59,3 +60,10 @@ For more information, read [Cortez et al., 2009].
       3.2.1. [Grid Search](###321-Grid-Search)
       
      4.[Conclusions](#4-Conclusions)
+  
+## Conclusions
+In conclusion, this project aimed to develop a predictive model for wine quality using its physiochemical properties, with alcohol content being the most influential factor. The random forest model built in this project achieved a high accuracy of 94.21% in predicting wine quality based on the dataset of wine samples.
+This model can have practical applications in the wine industry and benefit both winemakers and consumers. Winemakers can use it to predict the quality of their wines and make informed decisions about production and blending, while consumers can make informed decisions when purchasing wines based on their predicted quality.
+However, it is important to validate the model's performance on new, unseen data to ensure its generalizability before implementing it in practical applications. Furthermore, there may be additional factors that influence wine quality beyond the scope of the physiochemical properties considered in this project, which could be explored in future research.
+Overall, this project demonstrates the potential of machine learning and predictive modeling in the wine industry and highlights the importance of understanding the underlying factors that influence wine quality.
+
